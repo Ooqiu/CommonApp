@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#f4f4f4" >
+    </FrameLayout>
+    <View style="@style/main_line"></View>
+    <RadioGroup
+
+        android:id="@+id/rg_main_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:padding="@dimen/dp_5"
+        android:background="@color/white"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dp_2"
+        android:paddingTop="@dimen/dp_2" >
+
+        <RadioButton
+            android:id="@+id/rb_main_HomePage"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/tab_icon_homepage"
+            android:text="@string/onefragment"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_main_type"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/tab_icon_goods"
+            android:text="@string/mystore" />
+
+        <RadioButton
+            android:id="@+id/rb_main_shoppingcar"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/tab_shoppingcar"
+            android:text="@string/shoppingcar" />
+
+        <RadioButton
+            android:id="@+id/rb_main_mine"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/tab_icon_mine"
+            android:text="@string/mine" />
+    </RadioGroup>
+
+</LinearLayout>

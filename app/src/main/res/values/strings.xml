@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">国寿i购</string>
+    <string name="onefragment">首页</string>
+    <string name="mystore">分类</string>
+    <string name="shoppingcar">购物车</string>
+    <string name="mine">我的</string>
+</resources>
